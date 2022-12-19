@@ -2,7 +2,6 @@
     Written by SAAD-IT 19.12.2022
 """
 
-from tortoise import tortoise
 from tortoise.models import Model
 from tortoise import fields
 from random import choice
