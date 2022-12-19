@@ -1,0 +1,4 @@
+__pycache__
+db.sq*
+migrations/*
+pyproject.toml

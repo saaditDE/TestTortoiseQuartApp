@@ -1,0 +1,18 @@
+<html>
+<!-- Written by SAAD-IT 19.12.2022 -->
+<head>
+    <title>testjinja2</title>
+</head>
+<body>
+    <h2>Users (10)</h2>
+    <hr/>
+    <ul>
+        {% for u in users %}
+        <li>
+            id: {{ u.id }} status: {{ u.getStatus() }}
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+<script src="/main.js" async></script>
+</html>
