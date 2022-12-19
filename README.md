@@ -1,6 +1,8 @@
 # Test Tortoise-Orm, Aerich & Quart App
 Some people have asked how to connect Tortoise-Orm, Aerich and Quart. This is a example that works with SQLite (should work with everything else too). Also, a basic jinja2 template is added and a static route.
 
+![TortoiseQuartAppTest.gif](TortoiseQuartAppTest.gif)
+
 ## How to use?
 The usage is straight forward, to test everything and adapt it to your needs. Complex commands were simplified in .sh files, due to bin paths for py packs.
 
